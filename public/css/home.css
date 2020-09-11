@@ -1,0 +1,16 @@
+.navbar-brand{
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar form{
+    margin-top: 15px;
+}
+
+.container{
+    padding: 20px;
+}
+
+.cardPadding{
+    padding-right: 0;
+}
