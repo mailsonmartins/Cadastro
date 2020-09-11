@@ -28,3 +28,28 @@
     color: #fff;
     padding-top: 10px ;
 }
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-success a:hover{
+    background-color: #10a24e;
+}
+
+.bg-warning a:hover{
+    background-color: #d6c420;
+}
+
+.bg-dark a:hover{
+    background-color: #727a82;
+}
+
+.bg-danger a:hover{
+    background-color: #a01713;
+}
