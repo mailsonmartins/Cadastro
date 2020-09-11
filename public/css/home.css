@@ -8,9 +8,23 @@
 }
 
 .container{
-    padding: 20px;
+    padding: 50px;
 }
 
-.cardPadding{
+.cardPaddingRight{
+    padding-right: 5px;
+    padding-left: 0;
+}
+.cardPaddingLeft{
+    padding-left: 5px;
     padding-right: 0;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.title-card-group{
+    color: #fff;
+    padding-top: 10px ;
 }
