@@ -4,6 +4,7 @@
     <div class="card border">
         <div class="card-body">
             <form action="/categorias" method="POST">
+                @csrf
                 <div class="form-group">
                     <label for="nome_categoria">Nome da Categoria</label>
                     <input type="text" class="form-control" name="nome_categoria" id="nome_categoria" placeholder="Categoria">

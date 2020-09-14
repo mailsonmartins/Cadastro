@@ -61,7 +61,7 @@
             </div>
 
             <div class="col-sm-12 title-card-group bg-primary mb-3">
-                <a href="/produtos">
+                <a href="/categorias">
                     <h4>Categorias</h4>
                 </a>
             </div>
