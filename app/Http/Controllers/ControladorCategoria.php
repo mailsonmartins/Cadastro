@@ -111,4 +111,10 @@ class ControladorCategoria extends Controller
         return view('page_deletar_categoria', compact('cats'));
     }
 
+    public function indexJson()
+    {
+        $cats = Categoria::all();
+        return json_encode($cats);
+    }
+
 }
