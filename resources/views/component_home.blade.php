@@ -78,7 +78,7 @@
             </div>
             <div class="col-sm-6 cardPaddingLeft mb-3">
                 <div class="card text-white bg-warning" >
-                    <a href="/categorias/editar">
+                    <a href="/page_editar_categoria">
                         <div class="card-body">
                             <h1><i class="fa fa-pencil"></i></h1>
                             <h5 class="card-title">Editar</h5>

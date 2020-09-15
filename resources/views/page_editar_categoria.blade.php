@@ -4,7 +4,7 @@
 
     <div class="card border">
         <div class="card-body">
-            <h5 class="card-title">Página de categorias</h5>
+            <h5 class="card-title">Página de Editar Categorias</h5>
         </div>
     </div>
     <br>
@@ -73,7 +73,6 @@
                                 <td>{{ $cats->nome }}</td>
                                 <td>
                                     <a href="/categorias/editar/{{$cats->id}}" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</a>
-                                    <a href="/categorias/deletar/{{$cats->id}}" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Deletar</a>
                                 </td>
                             </tr>
                         @endforeach

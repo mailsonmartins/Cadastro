@@ -72,7 +72,6 @@
                                 <td>{{ $cats->id }}</td>
                                 <td>{{ $cats->nome }}</td>
                                 <td>
-                                    <a href="/categorias/editar/{{$cats->id}}" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</a>
                                     <a href="/categorias/deletar/{{$cats->id}}" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Deletar</a>
                                 </td>
                             </tr>

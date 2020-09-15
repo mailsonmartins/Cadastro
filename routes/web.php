@@ -22,4 +22,6 @@ Route::post('/categorias', 'ControladorCategoria@store');
 Route::get('/categorias/deletar/{id}', 'ControladorCategoria@destroy');
 Route::get('/categorias/editar/{id}', 'ControladorCategoria@edit');
 Route::post('/categorias/{id}', 'ControladorCategoria@update');
+Route::get('/page_editar_categoria', 'ControladorCategoria@pageEditar');
+Route::get('/page_deletar_categoria', 'ControladorCategoria@pageDeletar');
 

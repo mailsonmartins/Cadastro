@@ -100,4 +100,15 @@ class ControladorCategoria extends Controller
         }
         return redirect('/categorias');
     }
+
+    public function pageEditar(){
+        $cats = Categoria::all();
+        return view('page_editar_categoria', compact('cats'));
+    }
+
+    public function pageDeletar(){
+        $cats = Categoria::all();
+        return view('page_deletar_categoria', compact('cats'));
+    }
+
 }
